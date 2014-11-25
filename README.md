@@ -19,7 +19,8 @@ Using the libraries :
 
 		$this-load-libraries('leaflet');
 
-2. Include Leaflet CSS & JS file in the head section of your document:   
+2. Include Leaflet CSS & JS file in the head section of your document:  
+
 		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />	
 	
 		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
