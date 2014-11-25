@@ -27,6 +27,7 @@ Using the libraries :
 
 3. Let's show the map !
     Controller :
+
     	$config = array(
 			'center'         => '-0.959, 100.39716', // Center of the map
 			'zoom'           => 12, // Map zoom
