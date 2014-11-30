@@ -109,7 +109,7 @@ class Leaflet
 		$marker = array();
 		//$this->markersInfo['marker_'.count($this->markers)] = array();
 
-		$marker['latLing']      = "-0.9583407792361563,100.3982162475586";
+		$marker['latLong']      = "-0.9583407792361563,100.3982162475586";
 		$marker['icon']         = "";
 		$marker['clickable']    = TRUE;
 		$marker['draggable']    = FALSE;
@@ -143,7 +143,7 @@ class Leaflet
 		}
 				
 		// Create the marker
-		$marker_output .='marker = new L.marker(['.$marker['latLing'].'],({';
+		$marker_output .='marker = new L.marker(['.$marker['latLong'].'],({';
 
 		// Start of marker options
 		if (!$marker['clickable']) {
