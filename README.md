@@ -35,7 +35,7 @@ Using the libraries :
 		$this->leaflet->initialize($config);
         
 		$marker = array(
-			'latLing' 		=>'-0.959, 100.39716', // Marker Location
+			'latLong' 		=>'-0.959, 100.39716', // Marker Location
 			'popupContent' 	=> 'Hi, i'am a popup!!', // Popup Content
 			);
 			$this->leaflet->add_marker($marker);
