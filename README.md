@@ -6,8 +6,8 @@ Simple Leaflet JS library for Codeigniter
 Features :	
 - Create Simple Map
 - Add marker / multiple marker
-- Custom JavaScript Function
-- Support Leaflet.awesome-markers for custom marker icon
+- Custom marker icon
+
 
 Installation : 
 
@@ -44,6 +44,7 @@ Using the libraries :
 		$this->data['map'] =  $this->leaflet->create_map();
 
 	On the view file :
+
 		<?php echo $map['html']; ?>
 		<?php echo $map['js']; ?>
     
