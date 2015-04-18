@@ -35,8 +35,8 @@ Using the libraries :
 		$this->leaflet->initialize($config);
         
 		$marker = array(
-			'latLong' 		=>'-0.959, 100.39716', // Marker Location
-			'popupContent' 	=> 'Hi, i'am a popup!!', // Popup Content
+			'latlng' 		=>'-0.959, 100.39716', // Marker Location
+			'popupContent' 	=> 'Hi, iam a popup!!', // Popup Content
 			);
 			$this->leaflet->add_marker($marker);
 		}
@@ -44,22 +44,11 @@ Using the libraries :
 		$this->data['map'] =  $this->leaflet->create_map();
 
 	On the view file :
-	
+		<?php echo $map['html']; ?>
 		<?php echo $map['js']; ?>
     
    
-   Work with [Leaflet.awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers "Leaflet.awesome-markers") :
-   
-		$marker = array(
-      		............
-      		'awesomeMarker' => TRUE,
-      		'icon'=> 'home',
-      		'prefix' => 'fa',
-      		'markerColor'=> 'red',
-		 ............
-		);
-		this->leaflet->add_marker($marker);
-    
+
     
 Feel free to send me an email if you have any problems ;)	
 
