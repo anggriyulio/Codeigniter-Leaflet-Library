@@ -1,6 +1,9 @@
 Codeigniter-Leaflet-Library
 ===========================
 
+![Simple Leaflet JS library for Codeigniter](http://anggriyulio.com/public/images/leaflet-codeigniter.png)
+
+
 Simple Leaflet JS library for Codeigniter
 
 Features :	
