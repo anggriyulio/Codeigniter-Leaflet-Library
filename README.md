@@ -21,6 +21,8 @@ Using the libraries :
 
 2. Include Leaflet CSS & JS file in the head section of your document:  
 
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script> // or latest jquery
+	
 		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />	
 	
 		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
