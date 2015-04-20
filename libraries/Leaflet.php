@@ -250,7 +250,7 @@ class Leaflet
 		$this->output_js = '';
 		$this->output_js_contents = '';
 		$this->output_html = '';
-		$this->output_html .= '<div id="map" style="width:100%; height:100%;"></div>';
+		$this->output_html .= '<div id="map" style="width:100%; height:400px;"></div>';
 
 
 		$this->output_js .= '
