@@ -17,7 +17,7 @@ Using the libraries :
 
 1. Loading library	
 
-		$this-load-libraries('leaflet');
+		$this->load->library('leaflet');
 
 2. Include Leaflet CSS & JS file in the head section of your document:  
 
@@ -41,7 +41,7 @@ Using the libraries :
 			'popupContent' 	=> 'Hi, iam a popup!!', // Popup Content
 			);
 			$this->leaflet->add_marker($marker);
-		}
+		
 
 		$this->data['map'] =  $this->leaflet->create_map();
 
